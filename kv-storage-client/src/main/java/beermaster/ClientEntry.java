@@ -1,5 +1,6 @@
 package beermaster;
 
+import beermaster.client.NioClientBuilder;
 import beermaster.client.StubClientBuilder;
 import beermaster.config.Configuration;
 import beermaster.context.ApplicationContext;
@@ -18,7 +19,7 @@ public class ClientEntry {
         Configuration configuration = Configuration.getInstance();
         ApplicationContext applicationContext = ApplicationContext.getInstance();
         ConsoleInput input = new ConsoleInput();
-        MenuBuilder menuBuilder = new MenuBuilder(applicationContext, input, configuration, new StubClientBuilder());
+        MenuBuilder menuBuilder = new MenuBuilder(applicationContext, input, configuration, new NioClientBuilder());
         Menu mainMenu = menuBuilder.build();
         MenuSwitcher menuSwitcher = new MenuSwitcher(mainMenu, new MenuRenderer(), new UserChoiceProvider(input));
         while (applicationContext.isRunning()) {
