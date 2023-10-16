@@ -1,0 +1,121 @@
+### IntelliJ IDEA ###
+kv-storage/out/
+kv-storage/!**/src/main/**/out/
+kv-storage/!**/src/test/**/out/
+kv-storage/.idea
+kv-storage/*.iws
+kv-storage/*.iml
+kv-storage/*.ipr
+kv-storage/storage/
+
+### Eclipse ###
+kv-storage/.apt_generated
+kv-storage/.classpath
+kv-storage/.factorypath
+kv-storage/.project
+kv-storage/.settings
+kv-storage/.springBeans
+kv-storage/.sts4-cache
+kv-storage/bin/
+kv-storage/!**/src/main/**/bin/
+kv-storage/!**/src/test/**/bin/
+
+### NetBeans ###
+kv-storage/nbproject/private/
+kv-storage/nbbuild/
+kv-storage/dist/
+kv-storage/nbdist/
+kv-storage/.nb-gradle/
+
+### VS Code ###
+kv-storage/.vscode/
+
+### Mac OS ###
+kv-storage/.DS_Store
+
+kv-storage/target/
+kv-storage/!.mvn/wrapper/maven-wrapper.jar
+kv-storage/!**/src/main/**/target/
+kv-storage/!**/src/test/**/target/
+
+kv-storage-client/target/
+kv-storage-client/!.mvn/wrapper/maven-wrapper.jar
+kv-storage-client/!**/src/main/**/target/
+kv-storage-client/!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+kv-storage-client/.idea/modules.xml
+kv-storage-client/.idea/jarRepositories.xml
+kv-storage-client/.idea/compiler.xml
+kv-storage-client/.idea/libraries/
+kv-storage-client/.idea
+kv-storage-client/*.iws
+kv-storage-client/*.iml
+kv-storage-client/*.ipr
+
+### Eclipse ###
+kv-storage-client/.apt_generated
+kv-storage-client/.classpath
+kv-storage-client/.factorypath
+kv-storage-client/.project
+kv-storage-client/.settings
+kv-storage-client/.springBeans
+kv-storage-client/.sts4-cache
+
+### NetBeans ###
+kv-storage-client/nbproject/private/
+kv-storage-client/nbbuild/
+kv-storage-client/dist/
+kv-storage-client/nbdist/
+kv-storage-client/.nb-gradle/
+kv-storage-client/build/
+kv-storage-client/!**/src/main/**/build/
+kv-storage-client/!**/src/test/**/build/
+
+### VS Code ###
+kv-storage-client/.vscode/
+
+### Mac OS ###
+kv-storage-client/.DS_Store
+
+menu/target/
+menu/!.mvn/wrapper/maven-wrapper.jar
+menu/!**/src/main/**/target/
+menu/!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+menu/.idea/modules.xml
+menu/.idea/jarRepositories.xml
+menu/.idea/compiler.xml
+menu/.idea/libraries/
+menu/*.iws
+menu/*.iml
+menu/*.ipr
+
+### Eclipse ###
+menu/.apt_generated
+menu/.classpath
+menu/.factorypath
+menu/.project
+menu/.settings
+menu/.springBeans
+menu/.sts4-cache
+
+### NetBeans ###
+menu/nbproject/private/
+menu/nbbuild/
+menu/dist/
+menu/nbdist/
+menu/.nb-gradle/
+menu/build/
+menu/!**/src/main/**/build/
+menu/!**/src/test/**/build/
+
+### VS Code ###
+menu/.vscode/
+
+### Mac OS ###
+menu/.DS_Store
+
+.DS_Store
+.idea/
