@@ -64,3 +64,6 @@ public interface DataInfoOut {
     DataInfoOut delete();
 }
 ```
+
+Ветка master не содержит реализации клиент-серверных интерфейсов, лишь стабы.</br>
+Ветка impl с реализацией.
